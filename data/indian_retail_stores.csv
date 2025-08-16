@@ -1,0 +1,109 @@
+store_id,chain_name,chain_type,segment,city,state,region,tier,store_size_sqft,opening_date,manager_name,employee_count,monthly_rent,parking_spaces
+ST_0001,BigBazaar,Hypermarket,Value,Kolkata,West Bengal,East,Metro,8648,2020-02-21,Kavya Nair,60,456787,107
+ST_0002,BigBazaar,Hypermarket,Value,Delhi,Delhi,North,Metro,8358,2020-06-27,Vikram Singh,79,233326,57
+ST_0003,BigBazaar,Hypermarket,Value,Mumbai,Maharashtra,West,Metro,12164,2021-04-21,Vikram Singh,102,227824,193
+ST_0004,BigBazaar,Hypermarket,Value,Delhi,Delhi,North,Metro,22856,2022-05-09,Priya Sharma,82,817889,121
+ST_0005,BigBazaar,Hypermarket,Value,Mumbai,Maharashtra,West,Metro,10231,2022-05-15,Amit Patel,60,363032,105
+ST_0006,BigBazaar,Hypermarket,Value,Bengaluru,Karnataka,South,Metro,8349,2020-07-08,Sneha Reddy,37,576417,266
+ST_0007,BigBazaar,Hypermarket,Value,Bengaluru,Karnataka,South,Metro,24782,2021-06-25,Rajesh Kumar,118,681741,187
+ST_0008,BigBazaar,Hypermarket,Value,Mumbai,Maharashtra,West,Metro,17403,2020-06-10,Vikram Singh,62,1069693,210
+ST_0009,BigBazaar,Hypermarket,Value,Kochi,Kerala,South,Tier_1,16850,2021-01-28,Kavya Nair,33,248050,219
+ST_0010,BigBazaar,Hypermarket,Value,Ahmedabad,Gujarat,West,Tier_1,14482,2020-06-12,Priya Sharma,135,305907,147
+ST_0011,BigBazaar,Hypermarket,Value,Jaipur,Rajasthan,North,Tier_1,19857,2022-01-17,Priya Sharma,72,572528,103
+ST_0012,BigBazaar,Hypermarket,Value,Chandigarh,Punjab,North,Tier_1,13748,2020-05-26,Vikram Singh,106,379451,186
+ST_0013,BigBazaar,Hypermarket,Value,Chandigarh,Punjab,North,Tier_1,13021,2020-11-30,Sneha Reddy,73,483060,286
+ST_0014,BigBazaar,Hypermarket,Value,Chandigarh,Punjab,North,Tier_1,23250,2021-03-25,Kavya Nair,66,1083794,246
+ST_0015,BigBazaar,Hypermarket,Value,Nagpur,Maharashtra,West,Tier_2,12505,2020-03-06,Amit Patel,76,480746,66
+ST_0016,BigBazaar,Hypermarket,Value,Indore,Madhya Pradesh,Central,Tier_2,23585,2021-10-06,Priya Sharma,108,723481,151
+ST_0017,BigBazaar,Hypermarket,Value,Nashik,Maharashtra,West,Tier_2,20035,2020-10-19,Amit Patel,42,458607,240
+ST_0018,BigBazaar,Hypermarket,Value,Vadodara,Gujarat,West,Tier_2,22661,2021-06-22,Kavya Nair,99,649245,279
+ST_0019,Reliance Fresh,Supermarket,Premium,Chennai,Tamil Nadu,South,Metro,18087,2022-01-11,Priya Sharma,42,734277,176
+ST_0020,Reliance Fresh,Supermarket,Premium,Mumbai,Maharashtra,West,Metro,6543,2020-08-12,Priya Sharma,105,367753,252
+ST_0021,Reliance Fresh,Supermarket,Premium,Kolkata,West Bengal,East,Metro,18833,2020-05-10,Sneha Reddy,73,824834,169
+ST_0022,Reliance Fresh,Supermarket,Premium,Chennai,Tamil Nadu,South,Metro,13238,2020-01-24,Kavya Nair,117,320116,224
+ST_0023,Reliance Fresh,Supermarket,Premium,Chennai,Tamil Nadu,South,Metro,13743,2021-11-27,Rajesh Kumar,62,655884,90
+ST_0024,Reliance Fresh,Supermarket,Premium,Hyderabad,Telangana,South,Metro,5106,2021-06-23,Vikram Singh,122,387330,179
+ST_0025,Reliance Fresh,Supermarket,Premium,Mumbai,Maharashtra,West,Metro,14779,2022-11-05,Vikram Singh,50,360263,145
+ST_0026,Reliance Fresh,Supermarket,Premium,Delhi,Delhi,North,Metro,22674,2022-12-22,Rajesh Kumar,101,539902,175
+ST_0027,Reliance Fresh,Supermarket,Premium,Pune,Maharashtra,West,Tier_1,8665,2022-01-13,Amit Patel,55,260738,111
+ST_0028,Reliance Fresh,Supermarket,Premium,Kochi,Kerala,South,Tier_1,7580,2020-06-24,Kavya Nair,87,1055662,67
+ST_0029,Reliance Fresh,Supermarket,Premium,Kochi,Kerala,South,Tier_1,9120,2020-09-19,Kavya Nair,85,1192842,190
+ST_0030,Reliance Fresh,Supermarket,Premium,Ahmedabad,Gujarat,West,Tier_1,13685,2022-12-16,Vikram Singh,79,422086,287
+ST_0031,Reliance Fresh,Supermarket,Premium,Kochi,Kerala,South,Tier_1,11591,2021-09-30,Sneha Reddy,110,881446,145
+ST_0032,Reliance Fresh,Supermarket,Premium,Lucknow,Uttar Pradesh,North,Tier_1,21959,2022-07-13,Rajesh Kumar,56,435612,66
+ST_0033,Reliance Fresh,Supermarket,Premium,Bhopal,Madhya Pradesh,Central,Tier_2,5689,2021-04-16,Vikram Singh,53,207540,68
+ST_0034,Reliance Fresh,Supermarket,Premium,Nashik,Maharashtra,West,Tier_2,6929,2021-04-13,Rajesh Kumar,140,232938,270
+ST_0035,Reliance Fresh,Supermarket,Premium,Bhopal,Madhya Pradesh,Central,Tier_2,7321,2022-11-18,Priya Sharma,60,901474,174
+ST_0036,Reliance Fresh,Supermarket,Premium,Indore,Madhya Pradesh,Central,Tier_2,22669,2020-09-27,Kavya Nair,144,1125245,196
+ST_0037,More Megastore,Supermarket,Mid-range,Chennai,Tamil Nadu,South,Metro,20488,2021-05-12,Sneha Reddy,128,626833,98
+ST_0038,More Megastore,Supermarket,Mid-range,Mumbai,Maharashtra,West,Metro,8176,2022-06-01,Amit Patel,79,631071,169
+ST_0039,More Megastore,Supermarket,Mid-range,Kolkata,West Bengal,East,Metro,6775,2020-07-20,Rajesh Kumar,76,963587,136
+ST_0040,More Megastore,Supermarket,Mid-range,Mumbai,Maharashtra,West,Metro,13147,2021-01-27,Priya Sharma,93,670405,85
+ST_0041,More Megastore,Supermarket,Mid-range,Hyderabad,Telangana,South,Metro,11012,2021-07-24,Sneha Reddy,56,1116964,286
+ST_0042,More Megastore,Supermarket,Mid-range,Mumbai,Maharashtra,West,Metro,19520,2020-07-19,Rajesh Kumar,108,766847,264
+ST_0043,More Megastore,Supermarket,Mid-range,Mumbai,Maharashtra,West,Metro,8056,2021-04-29,Priya Sharma,77,709231,173
+ST_0044,More Megastore,Supermarket,Mid-range,Delhi,Delhi,North,Metro,18141,2020-04-30,Priya Sharma,73,202260,149
+ST_0045,More Megastore,Supermarket,Mid-range,Jaipur,Rajasthan,North,Tier_1,19909,2021-08-07,Sneha Reddy,114,965990,250
+ST_0046,More Megastore,Supermarket,Mid-range,Kochi,Kerala,South,Tier_1,20947,2020-11-13,Priya Sharma,62,428275,297
+ST_0047,More Megastore,Supermarket,Mid-range,Pune,Maharashtra,West,Tier_1,23978,2020-05-04,Kavya Nair,65,259942,62
+ST_0048,More Megastore,Supermarket,Mid-range,Kochi,Kerala,South,Tier_1,20623,2022-10-26,Vikram Singh,45,259642,295
+ST_0049,More Megastore,Supermarket,Mid-range,Kochi,Kerala,South,Tier_1,7625,2021-01-15,Rajesh Kumar,101,271262,222
+ST_0050,More Megastore,Supermarket,Mid-range,Ahmedabad,Gujarat,West,Tier_1,18230,2020-09-02,Vikram Singh,56,807040,202
+ST_0051,More Megastore,Supermarket,Mid-range,Nagpur,Maharashtra,West,Tier_2,7686,2022-05-08,Kavya Nair,99,792683,183
+ST_0052,More Megastore,Supermarket,Mid-range,Bhopal,Madhya Pradesh,Central,Tier_2,13544,2021-02-22,Kavya Nair,116,529445,111
+ST_0053,More Megastore,Supermarket,Mid-range,Bhopal,Madhya Pradesh,Central,Tier_2,17969,2020-09-25,Kavya Nair,107,514569,167
+ST_0054,More Megastore,Supermarket,Mid-range,Bhopal,Madhya Pradesh,Central,Tier_2,7377,2020-01-20,Sneha Reddy,104,790341,75
+ST_0055,Spencer's Retail,Supermarket,Premium,Mumbai,Maharashtra,West,Metro,22617,2021-03-12,Vikram Singh,58,338890,288
+ST_0056,Spencer's Retail,Supermarket,Premium,Bengaluru,Karnataka,South,Metro,7254,2021-05-15,Amit Patel,61,365409,162
+ST_0057,Spencer's Retail,Supermarket,Premium,Chennai,Tamil Nadu,South,Metro,14912,2022-12-19,Rajesh Kumar,110,1056795,191
+ST_0058,Spencer's Retail,Supermarket,Premium,Bengaluru,Karnataka,South,Metro,8394,2020-10-02,Amit Patel,39,1132931,77
+ST_0059,Spencer's Retail,Supermarket,Premium,Kolkata,West Bengal,East,Metro,23128,2020-11-14,Amit Patel,61,834210,103
+ST_0060,Spencer's Retail,Supermarket,Premium,Kolkata,West Bengal,East,Metro,16235,2021-02-20,Kavya Nair,106,1094343,117
+ST_0061,Spencer's Retail,Supermarket,Premium,Chennai,Tamil Nadu,South,Metro,21008,2021-05-29,Rajesh Kumar,36,865095,158
+ST_0062,Spencer's Retail,Supermarket,Premium,Bengaluru,Karnataka,South,Metro,6444,2020-01-08,Amit Patel,123,337174,213
+ST_0063,Spencer's Retail,Supermarket,Premium,Jaipur,Rajasthan,North,Tier_1,10294,2022-06-23,Vikram Singh,115,648462,193
+ST_0064,Spencer's Retail,Supermarket,Premium,Pune,Maharashtra,West,Tier_1,8665,2020-06-03,Kavya Nair,140,356294,189
+ST_0065,Spencer's Retail,Supermarket,Premium,Pune,Maharashtra,West,Tier_1,17098,2020-10-30,Sneha Reddy,41,243860,128
+ST_0066,Spencer's Retail,Supermarket,Premium,Jaipur,Rajasthan,North,Tier_1,6307,2022-01-02,Priya Sharma,112,461650,220
+ST_0067,Spencer's Retail,Supermarket,Premium,Pune,Maharashtra,West,Tier_1,16589,2022-04-12,Vikram Singh,120,362060,286
+ST_0068,Spencer's Retail,Supermarket,Premium,Ahmedabad,Gujarat,West,Tier_1,10324,2020-12-28,Sneha Reddy,28,388073,238
+ST_0069,Spencer's Retail,Supermarket,Premium,Bhopal,Madhya Pradesh,Central,Tier_2,18491,2021-05-23,Amit Patel,45,1025622,229
+ST_0070,Spencer's Retail,Supermarket,Premium,Nagpur,Maharashtra,West,Tier_2,17535,2020-03-20,Sneha Reddy,53,409267,259
+ST_0071,Spencer's Retail,Supermarket,Premium,Coimbatore,Tamil Nadu,South,Tier_2,16457,2021-09-17,Priya Sharma,53,224813,218
+ST_0072,Spencer's Retail,Supermarket,Premium,Indore,Madhya Pradesh,Central,Tier_2,18056,2021-11-03,Amit Patel,135,272792,297
+ST_0073,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,16506,2022-11-09,Sneha Reddy,111,1084642,187
+ST_0074,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,5904,2020-08-24,Amit Patel,47,808792,296
+ST_0075,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,6253,2020-08-10,Vikram Singh,80,562479,236
+ST_0076,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,19299,2022-11-13,Rajesh Kumar,74,1143199,197
+ST_0077,D-Mart,Supermarket,Value,Delhi,Delhi,North,Metro,13346,2020-03-31,Kavya Nair,80,201773,183
+ST_0078,D-Mart,Supermarket,Value,Chennai,Tamil Nadu,South,Metro,11456,2022-01-15,Sneha Reddy,33,1194967,220
+ST_0079,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,15286,2020-09-12,Kavya Nair,140,514910,179
+ST_0080,D-Mart,Supermarket,Value,Bengaluru,Karnataka,South,Metro,18382,2021-10-30,Sneha Reddy,114,510016,191
+ST_0081,D-Mart,Supermarket,Value,Ahmedabad,Gujarat,West,Tier_1,11286,2022-05-11,Kavya Nair,145,597562,223
+ST_0082,D-Mart,Supermarket,Value,Chandigarh,Punjab,North,Tier_1,10702,2021-09-08,Sneha Reddy,95,1074224,50
+ST_0083,D-Mart,Supermarket,Value,Jaipur,Rajasthan,North,Tier_1,14401,2021-03-06,Sneha Reddy,125,808158,205
+ST_0084,D-Mart,Supermarket,Value,Chandigarh,Punjab,North,Tier_1,15559,2022-08-10,Sneha Reddy,81,908446,104
+ST_0085,D-Mart,Supermarket,Value,Kochi,Kerala,South,Tier_1,20505,2020-12-13,Kavya Nair,35,497571,181
+ST_0086,D-Mart,Supermarket,Value,Chandigarh,Punjab,North,Tier_1,15983,2020-07-10,Priya Sharma,111,525498,107
+ST_0087,D-Mart,Supermarket,Value,Indore,Madhya Pradesh,Central,Tier_2,9828,2020-02-20,Rajesh Kumar,56,698216,206
+ST_0088,D-Mart,Supermarket,Value,Nagpur,Maharashtra,West,Tier_2,19923,2022-04-28,Kavya Nair,98,403880,233
+ST_0089,D-Mart,Supermarket,Value,Nashik,Maharashtra,West,Tier_2,17582,2022-10-09,Sneha Reddy,56,354739,217
+ST_0090,D-Mart,Supermarket,Value,Nashik,Maharashtra,West,Tier_2,5181,2020-08-06,Sneha Reddy,53,384430,255
+ST_0091,Star Bazaar,Hypermarket,Mid-range,Kolkata,West Bengal,East,Metro,21972,2022-08-09,Rajesh Kumar,96,461303,284
+ST_0092,Star Bazaar,Hypermarket,Mid-range,Mumbai,Maharashtra,West,Metro,19957,2020-09-30,Sneha Reddy,110,756932,193
+ST_0093,Star Bazaar,Hypermarket,Mid-range,Chennai,Tamil Nadu,South,Metro,15397,2022-06-25,Vikram Singh,129,954213,278
+ST_0094,Star Bazaar,Hypermarket,Mid-range,Chennai,Tamil Nadu,South,Metro,18983,2022-07-02,Priya Sharma,120,1103342,171
+ST_0095,Star Bazaar,Hypermarket,Mid-range,Hyderabad,Telangana,South,Metro,13493,2021-05-21,Kavya Nair,60,1003013,249
+ST_0096,Star Bazaar,Hypermarket,Mid-range,Chennai,Tamil Nadu,South,Metro,20879,2021-05-04,Amit Patel,81,281247,232
+ST_0097,Star Bazaar,Hypermarket,Mid-range,Bengaluru,Karnataka,South,Metro,12683,2021-07-10,Amit Patel,65,1136406,188
+ST_0098,Star Bazaar,Hypermarket,Mid-range,Mumbai,Maharashtra,West,Metro,9534,2020-11-04,Priya Sharma,74,927659,89
+ST_0099,Star Bazaar,Hypermarket,Mid-range,Chandigarh,Punjab,North,Tier_1,12010,2020-05-11,Sneha Reddy,77,546954,188
+ST_0100,Star Bazaar,Hypermarket,Mid-range,Lucknow,Uttar Pradesh,North,Tier_1,18624,2020-05-07,Priya Sharma,131,640552,149
+ST_0101,Star Bazaar,Hypermarket,Mid-range,Kochi,Kerala,South,Tier_1,5640,2022-02-18,Sneha Reddy,25,1188536,140
+ST_0102,Star Bazaar,Hypermarket,Mid-range,Jaipur,Rajasthan,North,Tier_1,17779,2022-05-08,Vikram Singh,120,970319,189
+ST_0103,Star Bazaar,Hypermarket,Mid-range,Kochi,Kerala,South,Tier_1,12226,2022-09-26,Priya Sharma,59,657007,174
+ST_0104,Star Bazaar,Hypermarket,Mid-range,Pune,Maharashtra,West,Tier_1,17742,2021-11-19,Kavya Nair,111,1036912,153
+ST_0105,Star Bazaar,Hypermarket,Mid-range,Nashik,Maharashtra,West,Tier_2,10408,2022-08-15,Priya Sharma,150,852483,186
+ST_0106,Star Bazaar,Hypermarket,Mid-range,Nagpur,Maharashtra,West,Tier_2,17911,2020-02-25,Rajesh Kumar,107,649433,84
+ST_0107,Star Bazaar,Hypermarket,Mid-range,Coimbatore,Tamil Nadu,South,Tier_2,10954,2020-04-12,Amit Patel,73,543254,104
+ST_0108,Star Bazaar,Hypermarket,Mid-range,Coimbatore,Tamil Nadu,South,Tier_2,15710,2021-11-22,Sneha Reddy,60,988539,293

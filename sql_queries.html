@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 SQL Queries | Ayush Singhal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0B1120;
+            --bg-secondary: #171E2E;
+            --border-color: #303742;
+            --text-primary: #F9FAFB;
+            --text-secondary: #9CA3AF;
+            --accent-blue: #3B82F6;
+            --accent-green: #10B981;
+            --accent-yellow: #F59E0B;
+            --accent-purple: #8B5CF6;
+            --accent-pink: #EC4899;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+        .query-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            margin-bottom: 2.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .query-card:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .query-card h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 1.25rem 1.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: var(--text-secondary);
+            font-family: 'Courier New', Courier, monospace;
+            padding: 1.75rem;
+            background-color: #0d1117;
+            height: 100%;
+        }
+        .result-visual {
+            padding: 1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .insight-summary {
+            background-color: #0d1117;
+            padding: 1.75rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid var(--accent-blue);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <main class="container mx-auto px-6 py-12">
+        <div class="flex justify-between items-center mb-10">
+            <h1 class="text-4xl font-bold">Top 5 SQL Queries & Visuals</h1>
+            <a href="index.html" class="text-blue-400 hover:text-blue-300 transition">&larr; Back to Portfolio</a>
+        </div>
+
+        <!-- Query 1 -->
+        <div class="query-card">
+            <h2 style="background-color: #252c3d; border-left: 5px solid var(--accent-blue);">1. Overall Business Performance KPIs</h2>
+            <div class="grid md:grid-cols-2 gap-x-6">
+                <pre>
+-- Fetches the main KPIs for the entire business.
+SELECT 
+    'Business KPI Summary' as metric_category,
+    CONCAT('₹', FORMAT(SUM(total_sales)/10000000, 1), ' Crores') as total_revenue,
+    CONCAT('₹', FORMAT(SUM(total_profit)/10000000, 1), ' Crores') as total_profit,
+    CONCAT(ROUND(AVG(avg_margin_pct), 2), '%') as overall_margin,
+    FORMAT(SUM(total_customers), 0) as total_customers
+FROM monthly_performance;
+                </pre>
+                <div class="result-visual">
+                    <div class="insight-summary w-full">
+                        <h3 class="font-bold text-xl mb-3">Key Insight</h3>
+                        <p class="text-gray-400 text-lg">This foundational query provides the high-level executive summary, revealing a total revenue of <span class="font-bold text-green-400">₹590.9 Crores</span> and a total profit of <span class="font-bold text-green-400">₹41.2 Crores</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Query 2 -->
+        <div class="query-card">
+            <h2 style="background-color: #252c3d; border-left: 5px solid var(--accent-green);">2. Chain Performance Ranking</h2>
+            <div class="grid md:grid-cols-2 gap-x-6">
+                <pre>
+-- Ranks each retail chain by sales and margin.
+SELECT 
+    RANK() OVER (ORDER BY total_sales DESC) as sales_rank,
+    chain_name,
+    CONCAT('₹', FORMAT(total_sales/10000000, 1), ' Cr') as revenue,
+    ROUND(avg_margin_pct, 2) as margin_pct,
+    CASE 
+        WHEN avg_margin_pct > 8 THEN '🟢 Excellent'
+        ELSE '🔴 Needs Improvement'
+    END as performance_status
+FROM chain_performance
+ORDER BY total_sales DESC;
+                </pre>
+                <div class="result-visual">
+                    <img src="assets/Chain Performance Ranking.png" alt="Chain Performance Ranking" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+
+        <!-- Query 3 -->
+        <div class="query-card">
+            <h2 style="background-color: #252c3d; border-left: 5px solid var(--accent-yellow);">3. Category Profitability Analysis</h2>
+             <div class="grid md:grid-cols-2 gap-x-6">
+                <pre>
+-- Analyzes profitability for each product category.
+SELECT 
+    category_name,
+    CONCAT('₹', FORMAT(total_sales/10000000, 1), ' Cr') as revenue,
+    ROUND(avg_net_margin, 1) as net_margin_pct,
+    CASE 
+        WHEN avg_net_margin > 15 THEN '🌟 Star'
+        WHEN avg_net_margin > 0 THEN '💰 Profitable'
+        ELSE '⚠️ Loss-making'
+    END as category_status
+FROM category_performance
+ORDER BY total_sales DESC;
+                </pre>
+                <div class="result-visual">
+                    <img src="assets/Category Profitability Analysis.png" alt="Category Profitability" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+
+        <!-- Query 4 -->
+        <div class="query-card">
+            <h2 style="background-color: #252c3d; border-left: 5px solid var(--accent-purple);">4. Regional Performance Deep Dive</h2>
+            <div class="grid md:grid-cols-2 gap-x-6">
+                <pre>
+-- Aggregates sales and margin by region and city tier.
+SELECT 
+    region,
+    tier,
+    store_count,
+    CONCAT('₹', FORMAT(total_sales/10000000, 1), ' Cr') as revenue,
+    ROUND(avg_margin_pct, 2) as margin_pct
+FROM regional_analysis
+ORDER BY total_sales DESC;
+                </pre>
+                <div class="result-visual">
+                    <img src="assets/Regional Performance.png" alt="Regional Performance" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+
+        <!-- Query 5 -->
+        <div class="query-card">
+            <h2 style="background-color: #252c3d; border-left: 5px solid var(--accent-pink);">5. Top 10 Performing Stores</h2>
+            <div class="grid md:grid-cols-2 gap-x-6">
+                <pre>
+-- Identifies the top 10 stores based on profit rank.
+SELECT 
+    'Top Performers' as performance_type,
+    store_id,
+    chain_name,
+    CONCAT(city, ', ', state) as location,
+    CONCAT('₹', FORMAT(total_sales/1000000, 1), 'M') as sales,
+    ROUND(avg_margin_pct, 2) as margin_pct
+FROM top_stores
+WHERE profit_rank <= 10
+ORDER BY profit_rank;
+                </pre>
+                <div class="result-visual">
+                    <img src="assets/Top 10 Performing Stores.png" alt="Top 10 Stores" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
