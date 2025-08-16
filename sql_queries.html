@@ -61,14 +61,17 @@
             background-color: #0d1117;
             padding: 1.75rem;
             border-radius: 0.5rem;
-            border-left: 4px solid var(--accent-blue);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     </style>
 </head>
 <body class="antialiased">
     <main class="container mx-auto px-6 py-12">
         <div class="flex justify-between items-center mb-10">
-            <h1 class="text-4xl font-bold">Top 5 SQL Queries & Visuals</h1>
+            <h1 class="text-4xl font-bold">Top 5 SQL Queries & Key Insights</h1>
             <a href="index.html" class="text-blue-400 hover:text-blue-300 transition">&larr; Back to Portfolio</a>
         </div>
 
@@ -87,7 +90,7 @@ SELECT
 FROM monthly_performance;
                 </pre>
                 <div class="result-visual">
-                    <div class="insight-summary w-full">
+                    <div class="insight-summary w-full" style="border-left: 4px solid var(--accent-blue);">
                         <h3 class="font-bold text-xl mb-3">Key Insight</h3>
                         <p class="text-gray-400 text-lg">This foundational query provides the high-level executive summary, revealing a total revenue of <span class="font-bold text-green-400">₹590.9 Crores</span> and a total profit of <span class="font-bold text-green-400">₹41.2 Crores</span>.</p>
                     </div>
@@ -114,7 +117,10 @@ FROM chain_performance
 ORDER BY total_sales DESC;
                 </pre>
                 <div class="result-visual">
-                    <img src="assets/Chain Performance Ranking.png" alt="Chain Performance Ranking" class="rounded-lg shadow-lg">
+                    <div class="insight-summary w-full" style="border-left: 4px solid var(--accent-green);">
+                        <h3 class="font-bold text-xl mb-3">Key Insight</h3>
+                        <p class="text-gray-400 text-lg">By ranking chains, the query shows that while <span class="font-bold text-blue-400">Spencer's Retail</span> and <span class="font-bold text-blue-400">Reliance Fresh</span> lead in revenue, <span class="font-bold text-yellow-400">More Megastore</span> is the most profitable with a <span class="font-bold text-yellow-400">10.87%</span> average margin.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,7 +144,10 @@ FROM category_performance
 ORDER BY total_sales DESC;
                 </pre>
                 <div class="result-visual">
-                    <img src="assets/Category Profitability Analysis.png" alt="Category Profitability" class="rounded-lg shadow-lg">
+                    <div class="insight-summary w-full" style="border-left: 4px solid var(--accent-yellow);">
+                        <h3 class="font-bold text-xl mb-3">Key Insight</h3>
+                        <p class="text-gray-400 text-lg">This query is crucial for identifying profit drivers. It reveals that <span class="font-bold text-green-400">Fashion</span> is a star category with a <span class="font-bold text-green-400">30.2%</span> margin, while <span class="font-bold text-red-400">Groceries</span> are a loss-making category at <span class="font-bold text-red-400">-3.5%</span>.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -159,7 +168,10 @@ FROM regional_analysis
 ORDER BY total_sales DESC;
                 </pre>
                 <div class="result-visual">
-                    <img src="assets/Regional Performance.png" alt="Regional Performance" class="rounded-lg shadow-lg">
+                    <div class="insight-summary w-full" style="border-left: 4px solid var(--accent-purple);">
+                        <h3 class="font-bold text-xl mb-3">Key Insight</h3>
+                        <p class="text-gray-400 text-lg">The query highlights that the <span class="font-bold text-blue-400">South</span> region is the biggest market, generating <span class="font-bold text-blue-400">₹241 Crores</span> in revenue. It also shows that <span class="font-bold text-yellow-400">Tier 1</span> cities are the most valuable within each region.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,7 +194,10 @@ WHERE profit_rank <= 10
 ORDER BY profit_rank;
                 </pre>
                 <div class="result-visual">
-                    <img src="assets/Top 10 Performing Stores.png" alt="Top 10 Stores" class="rounded-lg shadow-lg">
+                    <div class="insight-summary w-full" style="border-left: 4px solid var(--accent-pink);">
+                        <h3 class="font-bold text-xl mb-3">Key Insight</h3>
+                        <p class="text-gray-400 text-lg">This query pinpoints the most successful individual stores. The results show that top performers like <span class="font-bold text-green-400">ST_0045 (More Megastore)</span> and <span class="font-bold text-green-400">ST_0064 (Spencer's Retail)</span> are predominantly located in <span class="font-bold text-yellow-400">Tier 1</span> cities.</p>
+                    </div>
                 </div>
             </div>
         </div>
