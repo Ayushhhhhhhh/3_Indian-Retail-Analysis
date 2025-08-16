@@ -1,60 +1,60 @@
-Indian Retail Performance Analysis
-A comprehensive data analysis project by Ayush Singhal that explores the performance of major Indian retail chains. This repository contains the complete end-to-end workflow, from data cleaning and analysis to the final dashboards and insights.
+# 🇮🇳 Indian Retail Performance Analysis
 
-View the Live Portfolio Website →
-📋 Project Overview
-This project provides a deep-dive analysis into the sales, profitability, and operational efficiency of major Indian retail chains. The goal was to transform raw transactional data into actionable business intelligence, identifying key performance drivers, growth opportunities, and areas needing improvement. The analysis culminates in a professional, executive-ready dashboard that visualizes these insights.
+![Retail Analysis Banner](https://img.icons8.com/color/96/shop.png)  
+*A comprehensive data analytics project by [Ayush Singhal](https://github.com/Ayushhhhhhhh)*
 
-✨ Key Analyses & Features
-Executive KPIs: High-level tracking of Total Revenue, Total Profit, and Overall Profit Margin.
+[![Live Demo](https://img.icons8.com/fluency/48/play.png) **Live Demo**](https://ayushhhhhhhh.github.io/3_Indian-Retail-Analysis/)
 
-Chain Performance: A comparative analysis of retail chains based on sales, profitability, and customer count.
+---
 
-Category Deep-Dive: Identification of the most and least profitable product categories, such as the high-margin Fashion category and the loss-making Groceries category.
+## 📋 **Project Overview**
 
-Geographic Insights: Analysis of performance across different regions and city tiers, highlighting the sales dominance of the South Region.
+This project delivers a deep-dive analysis into the sales, profitability, and operational efficiency of major Indian retail chains.  
+The goal: **Transform raw transactional data into actionable business intelligence** for identifying key performance drivers, growth opportunities, and areas needing improvement.
 
-Store-Level Analysis: Granular analysis to identify the top 10 and bottom 10 performing stores.
+The analysis culminates in a professional, executive-ready dashboard that visualizes these insights.
 
-🛠️ Tech Stack & Tools
-Python: Used for data cleaning, preprocessing, exploratory data analysis (EDA), and generating key visualizations.
+---
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
+## 📊 **Dashboards**
 
-SQL: Used for complex data aggregation, querying, and extracting specific business insights from the dataset.
+### [**Final Power BI Dashboard**](#)
+<img src="assets/Power BI dashboard.png" alt="Power BI Dashboard" width="700">
 
-Microsoft Excel: Used for initial data mockups, KPI structuring, and creating a prototype dashboard with Pivot Tables.
+### [**Excel Analysis Dashboard**](#)
+<img src="assets/ExcelDashboard.png" alt="Excel Dashboard" width="700">
 
-Microsoft Power BI: Used to build the final, interactive, and visually compelling executive dashboard.
+---
 
-📂 Repository File Structure
-/Indian-Retail-Analysis
-|
-|-- index.html                    # Main portfolio landing page
-|-- python_output.html            # Detailed page for the Python script's output
-|-- sql_queries.html              # Detailed page for the Top 5 SQL queries and visuals
-|
-|-- /assets                       # Folder for all image assets and screenshots
-|   |-- chain_performance_analysis.jpg
-|   |-- category_margin_heatmap.png
-|   |-- ... (and all other .png/.jpg files)
-|
-|-- /data                         # (Optional) Folder for your CSV data files
-|   |-- indian_retail_complete.csv
-|
-|-- /scripts                      # (Optional) Folder for your source code
-|   |-- retail_performance_analysis.py
-|   |-- retail_business_queries.sql
-|
-|-- README.md                     # This file
+## ✨ **Key Analyses & Features**
 
-🚀 How to View the Project
-Live Website: The best way to experience this project is through the live portfolio website.
+- <img src="https://img.icons8.com/ios-filled/30/combo-chart.png" alt="KPIs" style="vertical-align:middle;"> **Executive KPIs:** High-level tracking of Total Revenue, Total Profit, and Overall Profit Margin.
+- <img src="https://img.icons8.com/ios-filled/30/rating.png" alt="Chain Performance" style="vertical-align:middle;"> **Chain Performance:** Comparative analysis of retail chains based on sales, profitability, and customer count.
+- <img src="https://img.icons8.com/ios-filled/30/open-box.png" alt="Category Deep-Dive" style="vertical-align:middle;"> **Category Deep-Dive:** Identification of most and least profitable categories (e.g., Fashion, Groceries).
+- <img src="https://img.icons8.com/ios-filled/30/marker.png" alt="Geographic Insights" style="vertical-align:middle;"> **Geographic Insights:** Regional performance analysis highlighting the sales dominance of the South Region.
+- <img src="https://img.icons8.com/ios-filled/30/shop.png" alt="Store-Level Analysis" style="vertical-align:middle;"> **Store-Level Analysis:** Top 10 and bottom 10 performing stores.
 
-Explore the Code:
+---
 
-The Python analysis script can be found in /scripts/retail_performance_analysis.py.
+## 🛠️ **Tech Stack & Tools**
 
-The full set of SQL queries can be found in /scripts/retail_business_queries.sql.
+| Tool                | Usage                                                                                 |
+|---------------------|---------------------------------------------------------------------------------------|
+| **Python**          | Data cleaning, preprocessing, EDA, key visualizations                                 |
+| **Pandas** <br> **NumPy** | Data manipulation and analysis                                                      |
+| **Matplotlib** <br> **Seaborn** | Advanced charting and visualizations                                          |
+| **SQL**             | Aggregations, querying, and extracting business insights                              |
+| **Microsoft Excel** | Initial data mockups & dashboard prototyping (Pivot Tables)                           |
+| **Microsoft Power BI** | Final, interactive, executive-ready dashboard                                      |
 
-View the Data: The primary dataset used for this analysis is /data/indian_retail_complete.csv.
+---
+
+## 🚀 **Get Started**
+
+Explore the [Live Demo](https://ayushhhhhhhh.github.io/3_Indian-Retail-Analysis/)  
+Dive into the dashboards and discover actionable insights driving Indian retail success!
+
+---
+
+> **Crafted with passion for analytics & retail by Ayush Singhal**  
+> [<img src="https://img.icons8.com/ios-filled/24/github.png" alt="GitHub" style="vertical-align:middle;">](https://github.com/Ayushhhhhhhh)
