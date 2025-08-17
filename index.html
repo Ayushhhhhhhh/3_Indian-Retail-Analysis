@@ -210,15 +210,15 @@
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div class="max-w-sm mx-auto">
                             <h5 class="font-semibold text-center mb-2">Chain Performance</h5>
-                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Chain+Performance" alt="Python Visualization 1" class="rounded-lg shadow-lg">
+                            <img src="assets/chain_performance_analysis.png" alt="Python Visualization 1" class="rounded-lg shadow-lg">
                         </div>
                         <div class="max-w-sm mx-auto">
                             <h5 class="font-semibold text-center mb-2">Category Profitability</h5>
-                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Category+Profitability" alt="Python Visualization 2" class="rounded-lg shadow-lg">
+                            <img src="assets/category_margin_heatmap.png" alt="Python Visualization 2" class="rounded-lg shadow-lg">
                         </div>
                         <div class="max-w-sm mx-auto">
                              <h5 class="font-semibold text-center mb-2">Monthly Sales Trends</h5>
-                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Monthly+Trends" alt="Python Visualization 3" class="rounded-lg shadow-lg">
+                            <img src="assets/monthly_trends.png" alt="Python Visualization 3" class="rounded-lg shadow-lg">
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                     <h3 class="text-2xl font-bold text-center mb-2">Excel Dashboard</h3>
                     <p class="text-gray-400 mb-6 max-w-3xl mx-auto text-center">Developed an initial dashboard mockup in Excel using Pivot Tables and charts. This step was crucial for defining key KPIs, structuring the layout, and prototyping the visual elements before moving to the final Power BI implementation.</p>
                     <div class="max-w-4xl mx-auto">
-                        <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Excel+Dashboard" alt="Excel Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                        <img src="assets/ExcelDashboard.png" alt="Excel Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
 
@@ -251,7 +251,7 @@
                     <h3 class="text-2xl font-bold text-center mb-2">Power BI Dashboard</h3>
                     <p class="text-gray-400 mb-6 max-w-3xl mx-auto text-center">The project culminated in a professional, dark-themed Power BI dashboard. It features interactive filters, drill-down capabilities, and visually compelling charts that present the key findings in an intuitive and executive-ready format.</p>
                     <div class="max-w-4xl mx-auto">
-                        <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Power+BI+Dashboard" alt="Power BI Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                        <img src="assets/Power BI dashboard.png" alt="Power BI Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
             </div>
@@ -280,18 +280,6 @@
             });
         }, { threshold: 0.1 });
         document.querySelectorAll('.showcase-card').forEach(card => observer.observe(card));
-
-        // Image error handling
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('img').forEach(img => {
-                img.onerror = function() {
-                    const width = this.offsetWidth > 0 ? this.offsetWidth : 600;
-                    const height = this.offsetHeight > 0 ? this.offsetHeight : 400;
-                    const altText = this.alt.replace(/\s+/g, '+');
-                    this.src = `https://placehold.co/${width}x${height}/171E2E/F9FAFB?text=${altText || 'Image+Not+Found'}`;
-                };
-            });
-        });
     </script>
 </body>
 </html>
