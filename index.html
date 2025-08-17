@@ -93,7 +93,6 @@
 </head>
 <body class="antialiased">
 
-    <!-- I've increased the horizontal padding here from px-6 to px-8 -->
     <main class="container mx-auto px-8 py-16 md:py-24">
 
         <!-- 1. Project Title -->
@@ -180,7 +179,6 @@
         <!-- 4. Workflow Graphic -->
         <section class="mb-24">
             <h2 class="text-3xl font-bold text-center mb-12">Project Workflow</h2>
-            <!-- Added max-w-5xl and mx-auto to contain the workflow on large screens -->
             <div class="flex flex-col md:flex-row items-center justify-center max-w-5xl mx-auto">
                 <div class="workflow-step"><div class="workflow-icon"><svg class="w-10 h-10 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg></div><h3 class="font-semibold">Python</h3><p class="text-sm text-gray-400">Data Cleaning & Analysis</p></div>
                 <div class="workflow-arrow hidden md:block"></div>
@@ -198,7 +196,7 @@
             <div class="space-y-16">
                 <!-- Python Showcase -->
                 <div class="showcase-card p-8">
-                    <h3 class="text-2xl font-bold mb-4">Python Analysis</h3>
+                    <h3 class="text-2xl font-bold text-center mb-4">Python Analysis</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div class="insight-card p-6 rounded-lg flex items-start space-x-4"><div class="flex-shrink-0"><svg class="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><div><h3 class="font-bold text-lg">Data Quality Assessed</h3><p class="text-gray-400">Validated 12,960 records, confirming 100% data integrity with zero missing values or duplicates before analysis.</p></div></div>
                         <div class="insight-card p-6 rounded-lg flex items-start space-x-4"><div class="flex-shrink-0"><svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg></div><div><h3 class="font-bold text-lg">Financial Performance Calculated</h3><p class="text-gray-400">Aggregated key financial metrics, revealing a total revenue of ₹590.9 Crores and an overall profit margin of 6.97%.</p></div></div>
@@ -210,7 +208,6 @@
                     </div>
                     <h4 class="text-xl font-bold text-center mb-4">Key Visualizations</h4>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <!-- Added max-w-sm and mx-auto to center and constrain the image -->
                         <div class="max-w-sm mx-auto">
                             <h5 class="font-semibold text-center mb-2">Chain Performance</h5>
                             <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Chain+Performance" alt="Python Visualization 1" class="rounded-lg shadow-lg">
@@ -228,7 +225,7 @@
 
                 <!-- SQL Showcase -->
                 <div class="showcase-card p-8">
-                    <h3 class="text-2xl font-bold mb-2">SQL Insights</h3>
+                    <h3 class="text-2xl font-bold text-center mb-2">SQL Insights</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="insight-card p-6 rounded-lg flex items-start space-x-4"><div class="flex-shrink-0"><svg class="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5z"></path></svg></div><div><h3 class="font-bold text-lg">Ranking Chains by Performance</h3><p class="text-gray-400">Wrote queries using window functions to rank each retail chain by total sales and average profit margin, identifying market leaders.</p></div></div>
                         <div class="insight-card p-6 rounded-lg flex items-start space-x-4"><div class="flex-shrink-0"><svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div><div><h3 class="font-bold text-lg">Analyzing Geographic Performance</h3><p class="text-gray-400">Aggregated sales data by region and city tier to pinpoint the highest-performing geographical areas, such as the South region.</p></div></div>
@@ -242,20 +239,18 @@
 
                 <!-- Excel Showcase -->
                 <div class="showcase-card p-8">
-                    <h3 class="text-2xl font-bold mb-2">Excel Dashboard</h3>
-                    <p class="text-gray-400 mb-6 max-w-4xl mx-auto">Developed an initial dashboard mockup in Excel using Pivot Tables and charts. This step was crucial for defining key KPIs, structuring the layout, and prototyping the visual elements before moving to the final Power BI implementation.</p>
-                    <!-- Wrapped image in a div to control its size -->
-                    <div class="max-w-5xl mx-auto">
+                    <h3 class="text-2xl font-bold text-center mb-2">Excel Dashboard</h3>
+                    <p class="text-gray-400 mb-6 max-w-3xl mx-auto text-center">Developed an initial dashboard mockup in Excel using Pivot Tables and charts. This step was crucial for defining key KPIs, structuring the layout, and prototyping the visual elements before moving to the final Power BI implementation.</p>
+                    <div class="max-w-4xl mx-auto">
                         <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Excel+Dashboard" alt="Excel Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
 
                 <!-- Power BI Showcase -->
                 <div class="showcase-card p-8">
-                    <h3 class="text-2xl font-bold mb-2">Power BI Dashboard</h3>
-                    <p class="text-gray-400 mb-6 max-w-4xl mx-auto">The project culminated in a professional, dark-themed Power BI dashboard. It features interactive filters, drill-down capabilities, and visually compelling charts that present the key findings in an intuitive and executive-ready format.</p>
-                    <!-- Wrapped image in a div to control its size -->
-                    <div class="max-w-5xl mx-auto">
+                    <h3 class="text-2xl font-bold text-center mb-2">Power BI Dashboard</h3>
+                    <p class="text-gray-400 mb-6 max-w-3xl mx-auto text-center">The project culminated in a professional, dark-themed Power BI dashboard. It features interactive filters, drill-down capabilities, and visually compelling charts that present the key findings in an intuitive and executive-ready format.</p>
+                    <div class="max-w-4xl mx-auto">
                         <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Power+BI+Dashboard" alt="Power BI Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
