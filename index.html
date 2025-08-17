@@ -93,7 +93,8 @@
 </head>
 <body class="antialiased">
 
-    <main class="container mx-auto px-6 py-16 md:py-24">
+    <!-- I've increased the horizontal padding here from px-6 to px-8 -->
+    <main class="container mx-auto px-8 py-16 md:py-24">
 
         <!-- 1. Project Title -->
         <section class="text-center mb-16">
@@ -179,7 +180,8 @@
         <!-- 4. Workflow Graphic -->
         <section class="mb-24">
             <h2 class="text-3xl font-bold text-center mb-12">Project Workflow</h2>
-            <div class="flex items-center justify-center">
+            <!-- Added max-w-5xl and mx-auto to contain the workflow on large screens -->
+            <div class="flex flex-col md:flex-row items-center justify-center max-w-5xl mx-auto">
                 <div class="workflow-step"><div class="workflow-icon"><svg class="w-10 h-10 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg></div><h3 class="font-semibold">Python</h3><p class="text-sm text-gray-400">Data Cleaning & Analysis</p></div>
                 <div class="workflow-arrow hidden md:block"></div>
                 <div class="workflow-step"><div class="workflow-icon"><svg class="w-10 h-10 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21 3.582 4-8 4s-8-1.79-8-4"/></svg></div><h3 class="font-semibold">SQL</h3><p class="text-sm text-gray-400">Insight Gathering</p></div>
@@ -207,18 +209,19 @@
                         <a href="python_output.html" target="_blank" class="text-blue-400 hover:text-blue-300 transition">View Full Analysis Log &rarr;</a>
                     </div>
                     <h4 class="text-xl font-bold text-center mb-4">Key Visualizations</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Added max-w-sm and mx-auto to center and constrain the image -->
+                        <div class="max-w-sm mx-auto">
                             <h5 class="font-semibold text-center mb-2">Chain Performance</h5>
-                            <img src="assets/chain_performance_analysis.png" alt="Python Visualization 1" class="rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Chain+Performance" alt="Python Visualization 1" class="rounded-lg shadow-lg">
                         </div>
-                        <div>
+                        <div class="max-w-sm mx-auto">
                             <h5 class="font-semibold text-center mb-2">Category Profitability</h5>
-                            <img src="assets/category_margin_heatmap.png" alt="Python Visualization 2" class="rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Category+Profitability" alt="Python Visualization 2" class="rounded-lg shadow-lg">
                         </div>
-                        <div>
+                        <div class="max-w-sm mx-auto">
                              <h5 class="font-semibold text-center mb-2">Monthly Sales Trends</h5>
-                            <img src="assets/monthly_trends.png" alt="Python Visualization 3" class="rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x400/171E2E/F9FAFB?text=Monthly+Trends" alt="Python Visualization 3" class="rounded-lg shadow-lg">
                         </div>
                     </div>
                 </div>
@@ -240,15 +243,21 @@
                 <!-- Excel Showcase -->
                 <div class="showcase-card p-8">
                     <h3 class="text-2xl font-bold mb-2">Excel Dashboard</h3>
-                    <p class="text-gray-400 mb-6">Developed an initial dashboard mockup in Excel using Pivot Tables and charts. This step was crucial for defining key KPIs, structuring the layout, and prototyping the visual elements before moving to the final Power BI implementation.</p>
-                    <img src="assets/ExcelDashboard.png" alt="Excel Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                    <p class="text-gray-400 mb-6 max-w-4xl mx-auto">Developed an initial dashboard mockup in Excel using Pivot Tables and charts. This step was crucial for defining key KPIs, structuring the layout, and prototyping the visual elements before moving to the final Power BI implementation.</p>
+                    <!-- Wrapped image in a div to control its size -->
+                    <div class="max-w-5xl mx-auto">
+                        <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Excel+Dashboard" alt="Excel Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                    </div>
                 </div>
 
                 <!-- Power BI Showcase -->
                 <div class="showcase-card p-8">
                     <h3 class="text-2xl font-bold mb-2">Power BI Dashboard</h3>
-                    <p class="text-gray-400 mb-6">The project culminated in a professional, dark-themed Power BI dashboard. It features interactive filters, drill-down capabilities, and visually compelling charts that present the key findings in an intuitive and executive-ready format.</p>
-                    <img src="assets/Power BI dashboard.png" alt="Power BI Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                    <p class="text-gray-400 mb-6 max-w-4xl mx-auto">The project culminated in a professional, dark-themed Power BI dashboard. It features interactive filters, drill-down capabilities, and visually compelling charts that present the key findings in an intuitive and executive-ready format.</p>
+                    <!-- Wrapped image in a div to control its size -->
+                    <div class="max-w-5xl mx-auto">
+                        <img src="https://placehold.co/1200x600/171E2E/F9FAFB?text=Power+BI+Dashboard" alt="Power BI Dashboard Screenshot" class="rounded-lg shadow-lg w-full">
+                    </div>
                 </div>
             </div>
         </section>
@@ -276,8 +285,18 @@
             });
         }, { threshold: 0.1 });
         document.querySelectorAll('.showcase-card').forEach(card => observer.observe(card));
+
+        // Image error handling
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('img').forEach(img => {
+                img.onerror = function() {
+                    const width = this.offsetWidth > 0 ? this.offsetWidth : 600;
+                    const height = this.offsetHeight > 0 ? this.offsetHeight : 400;
+                    const altText = this.alt.replace(/\s+/g, '+');
+                    this.src = `https://placehold.co/${width}x${height}/171E2E/F9FAFB?text=${altText || 'Image+Not+Found'}`;
+                };
+            });
+        });
     </script>
 </body>
 </html>
-
-
